@@ -1,0 +1,25 @@
+footer .GridFooter{
+    height: 200px;
+    background-size: cover;
+    font-size: small;
+    font-weight: 300;
+    background-color: yellow;
+    background-position: center;   
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+    
+    li{
+        display: flex;
+    font-size: 17px;
+    margin: 10px;}
+    .redes li{
+        width: 30px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin: 17px;}
+    .copyright{
+        color: aliceblue;
+    }
+}

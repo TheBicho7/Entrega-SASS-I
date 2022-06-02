@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+footer .GridFooter {
+  height: 200px;
+  background-size: cover;
+  font-size: small;
+  font-weight: 300;
+  background-color: yellow;
+  background-position: center;
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-between; }
+  footer .GridFooter li {
+    display: flex;
+    font-size: 17px;
+    margin: 10px; }
+  footer .GridFooter .redes li {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin: 17px; }
+  footer .GridFooter .copyright {
+    color: aliceblue; }
+
+@font-face {
+  font-family: "Soccer Title";
+  src: url(../fonts/Soccer.ttf); }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+  body .GridFormat {
+    display: flex;
+    flex-direction: column; }
+    body .GridFormat header {
+      background-size: cover;
+      font-size: large;
+      font-weight: 600;
+      background-color: blue;
+      background-position: center;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+      grid-area: header;
+      width: 100%; }
+      body .GridFormat header .titulo {
+        color: white;
+        font-family: "Soccer Title";
+        font-size: 30px; }
+      body .GridFormat header li {
+        align-items: flex-end;
+        display: inline-block; }
+        body .GridFormat header li a {
+          text-decoration: none;
+          list-style: none;
+          color: wheat;
+          padding: 20px;
+          display: block;
+          float: left;
+          width: 20%;
+          padding: 7px; }
+      body .GridFormat header .logo {
+        width: 50px; }
+      body .GridFormat header a:hover {
+        background-color: orangered; 
+        background-size: cover;}
+
+#section1 .section1 {
+  grid-area: section1; }
+  #section1 .section1 img {
+    width: 300px;
+    height: 200px; }
