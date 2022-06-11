@@ -1,25 +1,11 @@
-footer .GridFooter{
-    height: 200px;
-    background-size: cover;
-    font-size: small;
-    font-weight: 300;
-    background-color: yellow;
-    background-position: center;   
+.GridFooter{
     display: flex;
+    grid-template-columns: 3fr 3fr 1fr;
     column-gap: 50px;
     justify-content: space-between;
-    
-    li{
-        display: flex;
-    font-size: 17px;
-    margin: 10px;}
-    .redes li{
-        width: 30px;
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    margin: 17px;}
-    .copyright{
-        color: aliceblue;
-    }
+    height: 20vh;
+    background-image: url('https://aspe.es/wp-content/uploads/2020/10/2020-10-22-NP.-FINALIZA-LA-RESIEMBRA-DEL-CAMPO-DE-F%C3%9ATBOL-LAS-FUENTES-2000x1000.jpg');
+    background-position: center;
+    background-size: cover;
+    img{width: 30px; }
 }

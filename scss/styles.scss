@@ -1,3 +1,6 @@
+
+@import "variables";
+@import "mixins";
 @import "footer";
 @font-face {
     font-family: "Soccer Title";
@@ -5,22 +8,18 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-img{
-    max-width: 100%;}
 
-    body{
-        font-family: 'Lato', sans-serif;
-         .GridFormat{
-            display: flex;
-            flex-direction: column
-            ;
-            
-            header{
+    
+.GridFormat{
+     display: flex;
+    flex-direction: column ;           
+    header{
                 background-size: cover;
                 font-size: large;
                 font-weight: 600;
-                background-color: blue;
+                background-image: url('https://aspe.es/wp-content/uploads/2020/10/2020-10-22-NP.-FINALIZA-LA-RESIEMBRA-DEL-CAMPO-DE-F%C3%9ATBOL-LAS-FUENTES-2000x1000.jpg');
                 background-position: center;
+                background-size: cover;
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
@@ -29,7 +28,7 @@ img{
                 grid-area: header;
                 width: 100%;
                 .titulo {color: white;
-                    font-family: "Soccer Title";
+                    font-family: $font-title ;
                     font-size: 30px}
                 
                 li {align-items: flex-end;
@@ -44,22 +43,15 @@ img{
                     padding: 7px;}}
                 .logo{width: 50px;}
                 a:hover{
-                    background-color: orangered;}}
-            
-                
-            }
-
-   
-    }
-    #section1 .section1{
-        grid-area: section1;
-        img{
-            width: 300px;
-            height: 200px
-            ;
+                    background-color:$hovercolor;}}
+    main{
+        background-color: $fondocolor;
+        .mainnew{
+            background-image: url(https://estaticos-cdn.sport.es/clip/e9debabd-1e30-4120-8ccf-43419e50b5c5_alta-libre-aspect-ratio_default_0.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
         }
-
-    }
-            
-         
-    
+    }        
+            }
+                
